@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linear_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="415dp"
+        android:layout_height="730dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="1dp"
@@ -18,48 +18,52 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tablayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#DFDDF0F8"
-            app:tabBackground="?android:attr/autofilledHighlight"
-            tools:targetApi="o">
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/maptab"
-                android:layout_width="wrap_content"
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/tent2"
-                android:tint="#FFFFFF"
-                app:tint="#FFFFFF"
-                app:tintMode="src_atop" />
+                android:background="#DFDDF0F8"
+                app:tabBackground="?android:attr/autofilledHighlight"
+                tools:targetApi="o">
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/searchtab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#80ADB3"
-                android:icon="@drawable/findfriends"
-                android:tint="#070707"
-                app:tint="#000000"
-                app:tintMode="src_over" />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/maptab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/tent2"
+                    android:tint="#FFFFFF"
+                    app:tint="#FFFFFF"
+                    app:tintMode="src_atop" />
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/Lineupstab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:icon="@drawable/lineup" />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/searchtab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#80ADB3"
+                    android:icon="@drawable/findfriends"
+                    android:tint="#070707"
+                    app:tint="#000000"
+                    app:tintMode="src_over" />
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/scantab"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:icon="@drawable/qr"
-                android:tint="#000000"
-                app:tint="#000000" />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/Lineupstab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/lineup" />
 
-        </com.google.android.material.tabs.TabLayout>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/scantab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/qr"
+                    android:tint="#000000"
+                    app:tint="#000000" />
+
+            </com.google.android.material.tabs.TabLayout>
+
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
